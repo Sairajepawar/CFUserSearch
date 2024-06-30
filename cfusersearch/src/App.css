@@ -1,0 +1,116 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.searchBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.searchBox input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.searchBox button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.searchBox button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.personal-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.username {
+    font-size: 24px;
+    margin: 0;
+}
+
+.current-score {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.stats_info {
+    text-align: center;
+}
+
+.stats_info h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.stats-attribute {
+    font-size: 16px;
+    color: #888;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 16px;
+}
+.rating-newbie { color: #808080; }
+.rating-pupil { color: #008000; }
+.rating-specialist { color: #03a89e; }
+.rating-expert { color: #0000ff; }
+.rating-candidate-master { color: #a0a; }
+.rating-master { color: #ff8c00; }
+.rating-international-master { color: #ff8c00; }
+.rating-grandmaster { color: #ff0000; }
+.rating-international-grandmaster { color: #ff0000; }
+.rating-legendary-grandmaster { color: #ff0000; }
