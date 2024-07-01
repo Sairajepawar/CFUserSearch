@@ -41,7 +41,7 @@ To run CFUserSearch locally, follow these steps:
    npm run dev
    ```
 
-   This command runs the app in development mode. Open [http://localhost:3000](http://localhost:5173) to view it in your browser.
+   This command runs the app in development mode. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
 ## Technologies Used
 
