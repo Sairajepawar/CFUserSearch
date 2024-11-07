@@ -5,7 +5,7 @@ import axios from "axios";
 function App() {
     const [handle, setHandle] = useState('');
     const [body, setBody] = useState(null);
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
 
     const getRatingClass = (rating) => {
         if (rating >= 2900) return 'rating-legendary-grandmaster';
